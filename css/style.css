@@ -65,6 +65,19 @@ img {
 }
 
 
+/*GRID*/
+
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+}
+
+
 /*BOTONES*/
 
 .btn {
